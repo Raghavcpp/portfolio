@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import notesfanatic from "../../Assets/Projects/notes-fanatic.png";
+import wpb from "../../Assets/Projects/wpb.png";
+import aho from "../../Assets/Projects/aho.png";
+import bridge from "../../Assets/Projects/bridge.png";
+import smb from "../../Assets/Projects/smb.png";
+import mft from "../../Assets/Projects/mft.png";
 
 function Projects() {
   return (
@@ -23,68 +23,63 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={bridge}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/raghavcpp/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="bridge"
+              description="Bridging the Communication Gap Between Common People and Big Organizations using MERN Stack."
+              ghLink="https://github.com/raghavcpp/bridge"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={mft}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/raghavcpp/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Mental Fitness Tracker"
+              description="The Mental Fitness Tracker is an innovative application designed to assist users in tracking and improving their mental fitness. The application aims to promote mental health and wellness by providing users with a user-friendly tool to assess and manage their mental well-being effectively."
+              ghLink="https://github.com/Raghavcpp/IBM_SkillBuild_Project"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={aho}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/raghavcpp/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Data visualization Dashboard"
+              description="Here we visualize the datasets on Aviation, Oil & Health. Which helps us to analyze andunderstand it. Its user-friendly and modern style gives it a minimalistic look. It also hadAuthentication."
+              ghLink="https://github.com/Raghavcpp/AHO-Dashboard"
+              demoLink="https://aho-dashboard.onrender.com/"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={notesfanatic}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/raghavcpp/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Notes Fanatic"
+              description="It is a web application designed for students to access subject-wise notes in PDF format forvarious degree programs. It provides a structured repository of study materials categorized bybranch (CSE, ME, CSIT, EE, ECE, B.Pharm, M.Tech, MBA, MCA), semester, and subject,making it easy for students to find and read the notes they need."
+              ghLink="https://github.com/Raghavcpp/notes-fanatic"
+              demoLink="https://notes-fanatic.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={smb}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/raghavcpp/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Social Media Bot"
+              description="The Social Media Bot automates the posting of events on various social media platforms, including Twitter, Facebook, Instagram, and LinkedIn. This bot streamlines content sharing by reducing manual effort and ensuring timely updates. It utilizes Selenium for web automation, Pillow for image processing, and Python scripts to handle authentication, scheduling, and posting tasks."
+              ghLink="https://github.com/Raghavcpp/project/tree/main/social%20media"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={wpb}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/raghavcpp/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Wordpress Bot"
+              description="The WordPress Bot automates blog and page creation on WordPress. It simplifies the content publishing workflow by automatically generating and uploading blog posts along with images. Using Selenium, the bot navigates the WordPress interface to create new posts, while Pillow handles image processing to enhance the visual content. This tool is particularly useful for bloggers, content creators, and organizations that require frequent updates to their websites."
+              ghLink="https://github.com/Raghavcpp/project/tree/main/WordPressBot"
             />
           </Col>
         </Row>
