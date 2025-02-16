@@ -44,7 +44,7 @@ This is the source code for my personal portfolio website, built with **Next.js 
 - **Backend:** Node.js, Express (if required for API)
 - **Database:** MongoDB / Firebase (for dynamic content management)
 - **Authentication:** NextAuth.js (Admin Panel Login)
-- **Deployment:** Vercel / Netlify
+- **Deployment:** Render / Vercel / Netlify
 
 ---
 
@@ -79,6 +79,10 @@ NEXT_PUBLIC_API_URL=http://localhost:5000  # If using an API
 ---
 
 ## 📦 Deployment
+### Deploy to Render
+```sh
+render
+```
 ### Deploy to Vercel
 ```sh
 vercel
