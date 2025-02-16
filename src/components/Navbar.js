@@ -94,15 +94,15 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-              as={Link}
-              to="/"
-              onClick={() => updateExpanded(false)}
+              href="https://www.linkedin.com/in/raghav-cpp/"
+              target="_blank"
+              rel="noreferrer"
             >
               {/* //   href="/"
               //   target="_blank"
               //   rel="noreferrer" */}
               
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+                <ImBlog style={{ marginBottom: "2px" }} /> Conect
               </Nav.Link>
             </Nav.Item>
 

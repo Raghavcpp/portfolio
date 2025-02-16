@@ -90,8 +90,7 @@ netlify deploy
 
 ---
 
-## 🛠️ Future Enhancements
-✅ Add Blog Section  
+## 🛠️ Future Enhancements  
 ✅ Improve SEO & OpenGraph Tags  
 ✅ Add more interactive animations  
 ✅ Improve Admin Panel UI  
